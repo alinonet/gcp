@@ -1,0 +1,27 @@
+server {
+    listen 80;
+    listen [::]:80;
+    server_name localhost;
+
+    location / {
+        return 301 https://$host$request_uri;
+    }    
+}
+
+server { 
+    listen                  443 ssl;
+    listen                  [::]:443 ssl;
+    server_name             localhost;
+    ssl_certificate         /root/ssl/cert.pem; 
+    ssl_certificate_key     /root/ssl/key.pem;
+
+    location / {
+        proxy_pass "http://node-red:1880/ui/";
+    }
+
+    location /.well-known/pki-validation/ {
+        proxy_pass "http://node-red:1880/validation/";
+    }
+
+    error_page   500 502 503 504  /50x.html;
+}

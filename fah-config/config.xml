@@ -1,0 +1,14 @@
+<config>
+  <!-- Slot Control -->
+  <power v='LIGHT'/>
+
+  <!-- User Information -->
+  <passkey v='81bf16d78de2bb9e81bf16d78de2bb9e'/>
+  <team v='226715'/>
+  <user v='DPyjfCy8KjJCdfAfoWV381rhVde4piKeBR'/>
+
+  <!-- Folding Slots -->
+  <slot id='0' type='CPU'>
+    <idle v='true'/>
+  </slot>
+</config>

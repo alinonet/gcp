@@ -1,0 +1,57 @@
+services:
+
+  foldingathome:
+    image: lscr.io/linuxserver/foldingathome
+    container_name: foldingathome
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Etc/UTC
+    ports:
+      - "7396:7396"
+      - "36330:36330" #optional
+    volumes:
+      - ./fah-config:/config
+    # restart: unless-stopped
+    healthcheck:
+      test: curl http://localhost:7396 || exit 1
+
+  node-red:
+    image: nodered/node-red
+    container_name: node-red
+    environment:
+      - TZ=Europe/Amsterdam
+    ports:
+      - "1880:1880"
+    volumes:
+      - ./node-red-data:/data
+    # - node-red-data:/data
+
+  nginx:
+    image: nginx
+    container_name: nginx
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf
+    # - ./key.pem:/root/ssl/key.pem
+    # - ./cert.pem:/root/ssl/cert.pem
+      - ./private.key:/etc/ssl/private.key
+      - ./certificate.crt:/etc/ssl/certificate.crt
+    ports:
+      - "443:443"
+    depends_on:
+      - node-red
+      - fah
+
+# httpd:
+#   image: httpd:alpine
+#   container_name: httpd
+#   ports:
+#     - "80:80" # localhost:80
+#   volumes:
+#     - ./public:/usr/local/apache2/htdocs/
+#   healthcheck:
+#     test: (wget --server-response --spider --quiet  http://localhost) || exit 1
+
+
+# volumes:
+#   node-red-data:
