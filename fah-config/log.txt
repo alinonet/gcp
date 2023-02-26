@@ -1,83 +1,140 @@
-*********************** Log Started 2023-02-25T19:25:05Z ***********************
-19:25:05:******************************* libFAH ********************************
-19:25:05:       Date: Oct 20 2020
-19:25:05:       Time: 20:36:39
-19:25:05:   Revision: 5ca109d295a6245e2a2f590b3d0085ad5e567aeb
-19:25:05:     Branch: master
-19:25:05:   Compiler: GNU 8.3.0
-19:25:05:    Options: -faligned-new -std=c++11 -fsigned-char -ffunction-sections
-19:25:05:             -fdata-sections -O3 -funroll-loops -fno-pie
-19:25:05:   Platform: linux2 5.8.0-1-amd64
-19:25:05:       Bits: 64
-19:25:05:       Mode: Release
-19:25:05:****************************** FAHClient ******************************
-19:25:05:    Version: 7.6.21
-19:25:05:     Author: Joseph Coffland <joseph@cauldrondevelopment.com>
-19:25:05:  Copyright: 2020 foldingathome.org
-19:25:05:   Homepage: https://foldingathome.org/
-19:25:05:       Date: Oct 20 2020
-19:25:05:       Time: 20:39:00
-19:25:05:   Revision: 6efbf0e138e22d3963e6a291f78dcb9c6422a278
-19:25:05:     Branch: master
-19:25:05:   Compiler: GNU 8.3.0
-19:25:05:    Options: -faligned-new -std=c++11 -fsigned-char -ffunction-sections
-19:25:05:             -fdata-sections -O3 -funroll-loops -fno-pie
-19:25:05:   Platform: linux2 5.8.0-1-amd64
-19:25:05:       Bits: 64
-19:25:05:       Mode: Release
-19:25:05:       Args: --http-addresses 0.0.0.0:7396 --allow 0/0 --web-allow 0/0
-19:25:05:             --command-allow-no-pass 0/0
-19:25:05:     Config: /config/config.xml
-19:25:05:******************************** CBang ********************************
-19:25:05:       Date: Oct 20 2020
-19:25:05:       Time: 18:37:59
-19:25:05:   Revision: 7e4ce85225d7eaeb775e87c31740181ca603de60
-19:25:05:     Branch: master
-19:25:05:   Compiler: GNU 8.3.0
-19:25:05:    Options: -faligned-new -std=c++11 -fsigned-char -ffunction-sections
-19:25:05:             -fdata-sections -O3 -funroll-loops -fno-pie -fPIC
-19:25:05:   Platform: linux2 5.8.0-1-amd64
-19:25:05:       Bits: 64
-19:25:05:       Mode: Release
-19:25:05:******************************* System ********************************
-19:25:05:        CPU: Intel(R) Xeon(R) CPU @ 2.20GHz
-19:25:05:     CPU ID: GenuineIntel Family 6 Model 79 Stepping 0
-19:25:05:       CPUs: 2
-19:25:05:     Memory: 965.57MiB
-19:25:05:Free Memory: 249.87MiB
-19:25:05:    Threads: POSIX_THREADS
-19:25:05: OS Version: 5.19
-19:25:05:Has Battery: false
-19:25:05: On Battery: false
-19:25:05: UTC Offset: 0
-19:25:05:        PID: 141
-19:25:05:        CWD: /config
-19:25:05:         OS: Linux 5.19.0-1017-gcp x86_64
-19:25:05:    OS Arch: AMD64
-19:25:05:       GPUs: 0
-19:25:05:       CUDA: Not detected: Failed to open dynamic library 'libcuda.so':
-19:25:05:             libcuda.so: cannot open shared object file: No such file or
-19:25:05:             directory
-19:25:05:     OpenCL: Not detected: clGetPlatformIDs() returned -1001
-19:25:05:***********************************************************************
-19:25:05:<config>
-19:25:05:  <!-- Slot Control -->
-19:25:05:  <power v='LIGHT'/>
-19:25:05:
-19:25:05:  <!-- User Information -->
-19:25:05:  <passkey v='*****'/>
-19:25:05:  <team v='226715'/>
-19:25:05:  <user v='DPyjfCy8KjJCdfAfoWV381rhVde4piKeBR'/>
-19:25:05:
-19:25:05:  <!-- Folding Slots -->
-19:25:05:  <slot id='0' type='CPU'>
-19:25:05:    <idle v='true'/>
-19:25:05:  </slot>
-19:25:05:</config>
-19:25:05:Trying to access database...
-19:25:05:Successfully acquired database lock
-19:25:05:FS00:Initialized folding slot 00: cpu:1
-19:57:03:66:93.147.243.160:New Web session
-21:12:21:Caught signal SIGTERM(15) on PID 141
-21:12:21:Exiting, please wait. . .
-21:12:22:Clean exit
+*********************** Log Started 2023-02-26T02:39:22Z ***********************
+02:39:22:******************************* libFAH ********************************
+02:39:22:       Date: Oct 20 2020
+02:39:22:       Time: 20:36:39
+02:39:22:   Revision: 5ca109d295a6245e2a2f590b3d0085ad5e567aeb
+02:39:22:     Branch: master
+02:39:22:   Compiler: GNU 8.3.0
+02:39:22:    Options: -faligned-new -std=c++11 -fsigned-char -ffunction-sections
+02:39:22:             -fdata-sections -O3 -funroll-loops -fno-pie
+02:39:22:   Platform: linux2 5.8.0-1-amd64
+02:39:22:       Bits: 64
+02:39:22:       Mode: Release
+02:39:22:****************************** FAHClient ******************************
+02:39:22:    Version: 7.6.21
+02:39:22:     Author: Joseph Coffland <joseph@cauldrondevelopment.com>
+02:39:22:  Copyright: 2020 foldingathome.org
+02:39:22:   Homepage: https://foldingathome.org/
+02:39:22:       Date: Oct 20 2020
+02:39:22:       Time: 20:39:00
+02:39:22:   Revision: 6efbf0e138e22d3963e6a291f78dcb9c6422a278
+02:39:22:     Branch: master
+02:39:22:   Compiler: GNU 8.3.0
+02:39:22:    Options: -faligned-new -std=c++11 -fsigned-char -ffunction-sections
+02:39:22:             -fdata-sections -O3 -funroll-loops -fno-pie
+02:39:22:   Platform: linux2 5.8.0-1-amd64
+02:39:22:       Bits: 64
+02:39:22:       Mode: Release
+02:39:22:       Args: --http-addresses 0.0.0.0:7396 --allow 0/0 --web-allow 0/0
+02:39:22:             --command-allow-no-pass 0/0
+02:39:22:     Config: /config/config.xml
+02:39:22:******************************** CBang ********************************
+02:39:22:       Date: Oct 20 2020
+02:39:22:       Time: 18:37:59
+02:39:22:   Revision: 7e4ce85225d7eaeb775e87c31740181ca603de60
+02:39:22:     Branch: master
+02:39:22:   Compiler: GNU 8.3.0
+02:39:22:    Options: -faligned-new -std=c++11 -fsigned-char -ffunction-sections
+02:39:22:             -fdata-sections -O3 -funroll-loops -fno-pie -fPIC
+02:39:22:   Platform: linux2 5.8.0-1-amd64
+02:39:22:       Bits: 64
+02:39:22:       Mode: Release
+02:39:22:******************************* System ********************************
+02:39:22:        CPU: Intel(R) Xeon(R) CPU @ 2.20GHz
+02:39:22:     CPU ID: GenuineIntel Family 6 Model 79 Stepping 0
+02:39:22:       CPUs: 2
+02:39:22:     Memory: 965.57MiB
+02:39:22:Free Memory: 222.24MiB
+02:39:22:    Threads: POSIX_THREADS
+02:39:22: OS Version: 5.19
+02:39:22:Has Battery: false
+02:39:22: On Battery: false
+02:39:22: UTC Offset: 0
+02:39:22:        PID: 141
+02:39:22:        CWD: /config
+02:39:22:         OS: Linux 5.19.0-1017-gcp x86_64
+02:39:22:    OS Arch: AMD64
+02:39:22:       GPUs: 0
+02:39:22:       CUDA: Not detected: Failed to open dynamic library 'libcuda.so':
+02:39:22:             libcuda.so: cannot open shared object file: No such file or
+02:39:22:             directory
+02:39:22:     OpenCL: Not detected: clGetPlatformIDs() returned -1001
+02:39:22:***********************************************************************
+02:39:22:<config>
+02:39:22:  <!-- Slot Control -->
+02:39:22:  <power v='FULL'/>
+02:39:22:
+02:39:22:  <!-- User Information -->
+02:39:22:  <passkey v='*****'/>
+02:39:22:  <team v='226715'/>
+02:39:22:  <user v='DPyjfCy8KjJCdfAfoWV381rhVde4piKeBR'/>
+02:39:22:
+02:39:22:  <!-- Folding Slots -->
+02:39:22:  <slot id='0' type='CPU'/>
+02:39:22:</config>
+02:39:22:Trying to access database...
+02:39:22:Successfully acquired database lock
+02:39:22:FS00:Initialized folding slot 00: cpu:2
+02:39:22:WU00:FS00:Starting
+02:39:22:WU00:FS00:Running FahCore: /app/usr/bin/FAHCoreWrapper /config/cores/cores.foldingathome.org/lin/64bit-avx2-256/a8-0.0.12/Core_a8.fah/FahCore_a8 -dir 00 -suffix 01 -version 706 -lifeline 141 -checkpoint 15 -np 2
+02:39:23:WU00:FS00:Started FahCore on PID 152
+02:39:23:WU00:FS00:Core PID:159
+02:39:23:WU00:FS00:FahCore 0xa8 started
+02:39:24:WU00:FS00:0xa8:*********************** Log Started 2023-02-26T02:39:24Z ***********************
+02:39:24:WU00:FS00:0xa8:************************** Gromacs Folding@home Core ***************************
+02:39:24:WU00:FS00:0xa8:       Core: Gromacs
+02:39:24:WU00:FS00:0xa8:       Type: 0xa8
+02:39:24:WU00:FS00:0xa8:    Version: 0.0.12
+02:39:24:WU00:FS00:0xa8:     Author: Joseph Coffland <joseph@cauldrondevelopment.com>
+02:39:24:WU00:FS00:0xa8:  Copyright: 2020 foldingathome.org
+02:39:24:WU00:FS00:0xa8:   Homepage: https://foldingathome.org/
+02:39:24:WU00:FS00:0xa8:       Date: Jan 16 2021
+02:39:24:WU00:FS00:0xa8:       Time: 19:24:44
+02:39:24:WU00:FS00:0xa8:   Compiler: GNU 8.3.0
+02:39:24:WU00:FS00:0xa8:    Options: -faligned-new -std=c++14 -fsigned-char -ffunction-sections
+02:39:24:WU00:FS00:0xa8:             -fdata-sections -O3 -funroll-loops -fno-pie
+02:39:24:WU00:FS00:0xa8:   Platform: linux2 4.15.0-128-generic
+02:39:24:WU00:FS00:0xa8:       Bits: 64
+02:39:24:WU00:FS00:0xa8:       Mode: Release
+02:39:24:WU00:FS00:0xa8:       SIMD: avx2_256
+02:39:24:WU00:FS00:0xa8:     OpenMP: ON
+02:39:24:WU00:FS00:0xa8:       CUDA: OFF
+02:39:24:WU00:FS00:0xa8:       Args: -dir 00 -suffix 01 -version 706 -lifeline 152 -checkpoint 15 -np 2
+02:39:24:WU00:FS00:0xa8:************************************ libFAH ************************************
+02:39:24:WU00:FS00:0xa8:       Date: Jan 16 2021
+02:39:24:WU00:FS00:0xa8:       Time: 19:21:38
+02:39:24:WU00:FS00:0xa8:   Compiler: GNU 8.3.0
+02:39:24:WU00:FS00:0xa8:    Options: -faligned-new -std=c++14 -fsigned-char -ffunction-sections
+02:39:24:WU00:FS00:0xa8:             -fdata-sections -O3 -funroll-loops -fno-pie
+02:39:24:WU00:FS00:0xa8:   Platform: linux2 4.15.0-128-generic
+02:39:24:WU00:FS00:0xa8:       Bits: 64
+02:39:24:WU00:FS00:0xa8:       Mode: Release
+02:39:24:WU00:FS00:0xa8:************************************ CBang *************************************
+02:39:24:WU00:FS00:0xa8:       Date: Jan 16 2021
+02:39:24:WU00:FS00:0xa8:       Time: 19:21:24
+02:39:24:WU00:FS00:0xa8:   Compiler: GNU 8.3.0
+02:39:24:WU00:FS00:0xa8:    Options: -faligned-new -std=c++14 -fsigned-char -ffunction-sections
+02:39:24:WU00:FS00:0xa8:             -fdata-sections -O3 -funroll-loops -fno-pie -fPIC
+02:39:24:WU00:FS00:0xa8:   Platform: linux2 4.15.0-128-generic
+02:39:24:WU00:FS00:0xa8:       Bits: 64
+02:39:24:WU00:FS00:0xa8:       Mode: Release
+02:39:24:WU00:FS00:0xa8:************************************ System ************************************
+02:39:24:WU00:FS00:0xa8:        CPU: Intel(R) Xeon(R) CPU @ 2.20GHz
+02:39:24:WU00:FS00:0xa8:     CPU ID: GenuineIntel Family 6 Model 79 Stepping 0
+02:39:24:WU00:FS00:0xa8:       CPUs: 2
+02:39:24:WU00:FS00:0xa8:     Memory: 965.57MiB
+02:39:24:WU00:FS00:0xa8:Free Memory: 214.86MiB
+02:39:24:WU00:FS00:0xa8:    Threads: POSIX_THREADS
+02:39:24:WU00:FS00:0xa8: OS Version: 5.19
+02:39:24:WU00:FS00:0xa8:Has Battery: false
+02:39:24:WU00:FS00:0xa8: On Battery: false
+02:39:24:WU00:FS00:0xa8: UTC Offset: 0
+02:39:24:WU00:FS00:0xa8:        PID: 159
+02:39:24:WU00:FS00:0xa8:        CWD: /config/work
+02:39:24:WU00:FS00:0xa8:********************************************************************************
+02:39:24:WU00:FS00:0xa8:Project: 16977 (Run 6, Clone 1894, Gen 161)
+02:39:24:WU00:FS00:0xa8:Unit: 0x00000000000000000000000000000000
+02:39:24:WU00:FS00:0xa8:Digital signatures verified
+02:39:24:WU00:FS00:0xa8:Calling: mdrun -c frame161.gro -s frame161.tpr -x frame161.xtc -cpi state.cpt -cpt 15 -nt 2 -ntmpi 1
+02:39:25:WU00:FS00:0xa8:Steps: first=402500000 total=405000000
+02:39:31:WU00:FS00:0xa8:Completed 511201 out of 2500000 steps (20%)

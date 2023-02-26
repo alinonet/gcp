@@ -405,3 +405,297 @@ docker compose up -d
 docker compose logs -f
 nano nginx.conf
 nano compose.yaml 
+ls
+mv nginx.conf.bak nginx.conf.self-signed
+ls
+nano nginx.conf
+nano compose.yaml 
+docker compose up -d
+docker ps
+docker compose up -d
+docker ps -a
+docker compose down
+docker stop nr
+docker stop foldingathome
+docker stop fah
+docker stop node-red
+docker stop nr
+docker stop http
+docker ps -a
+docker rm fah
+docker rm c3
+docker rm -f c3
+docker ps -a
+nano compose.yaml 
+nano nginx.conf
+git login
+git
+git commit
+git init
+git commit
+git config --user.name "alinonet"
+git config
+git config --help
+git commit
+git config --global user.name "alinonet"
+git commit
+git add .
+la
+cd .git/
+ls
+cd ..
+ls
+rm -r setup
+sudo rm -r setup
+nano .gitconfig
+nano .gitignore
+git add .
+git commit
+nano .gitignore
+git add .
+git commit
+git
+git rm .
+git rm -r .
+git commit
+git rm -r .
+rm .gitignore 
+git rm -r .
+ls
+git commit
+git restore
+git restore .
+ls
+git commit
+git
+git init
+git commit
+git reset
+git commit
+nano .gitignore
+git add .
+git push
+git remote add gcp https://github.com/alinonet/gcp
+git push gcp
+git push --set-upstream gcp master
+git commit
+git push
+git push --set-upstream gcp master
+git remote
+git remote add gcp https://github.com/alinonet
+git remote remove gcp https://github.com/alinonet
+git remote remove gcp
+git remote remove gcp https://github.com/alinonet
+git remote add gcp https://github.com/alinonet
+git push --set-upstream gcp master
+git push --set-upstream gcp
+git push gcp
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/alinonet/gcp.git
+git push -u origin main
+git push -u origin master
+git remote add origin https://github.com/alinonet/gcp.git && git branch -M main && git push -u origin main
+git remote add origin https://github.com/alinonet/nginx-https-docker.git && git branch -M main && git push -u origin main
+git remote
+git remote remove origin
+
+git init
+git remote add origin https://github.com/alinonet/nginx-https-docker.git && git branch -M main && git push -u origin main
+git remote remove origin
+git remote add origin https://github.com/alinonet/nginx-https-docker.git && git branch -M main && git push -u origin main
+git remote add origin https://github.com/alinonet/gcp.git && git branch -M main && git push -u origin main
+git remote remove origin
+git remote add origin https://github.com/alinonet/gcp.git && git branch -M main && git push -u origin main
+ls
+git pull
+ls
+git
+git status
+touch git-token.sh
+ls
+alias git-token=echo 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
+alias
+alias --help
+alias git-token='echo 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'
+git-token
+git status
+git pull
+ls
+alias run='docker compose up -d'
+run
+nano compose.yaml 
+run
+nano nginx.conf
+run
+nano nginx.conf
+run
+alias run=
+run
+alias
+alias -p
+alias -p run
+alias 
+la
+unalias run
+alias 
+docker compose restart
+nano nginx.conf
+nano nginx.conf.self-signed 
+docker compose restart
+nano nginx.conf
+docker compose restart
+nano nginx.conf
+nano nginx.conf.self-signed 
+nano nginx.conf
+docker compose restart
+nano nginx.conf
+docker compose restart
+nano nginx.conf
+docker compose restart
+nano nginx.conf
+docker compose restart
+nano nginx.conf
+docker compose restart
+nano nginx.conf
+docker compose restart
+nano nginx.conf
+docker compose restart
+nano nginx.conf
+docker compose restart --build
+docker compose up -d --build
+nano nginx.conf
+nano compose.yaml 
+docker compose up -d --build
+nano compose.yaml 
+docker compose up -d --build
+docker compose rm -r
+docker compose rm -f
+docker compose up -d --build
+docker compose rm -f $(docker ps -aq)
+docker ps -a
+docker rm -f $(docker ps -aq)
+docker compose up -d --build
+nano compose.yaml 
+nano nginx.conf
+docker compose logs -f
+nano nginx.conf
+docker compose up -d --build
+docker compose down
+docker compose up -d --build
+nano nginx.conf
+docker compose up -d --build
+docker compose down
+docker compose up -d --build
+docker compose down
+docker ps
+docker compose up -d --build
+nano nginx.conf
+docker compose up -d --build
+docker compose up
+nano nginx.conf
+docker compose up
+docker compose up -d
+nano nginx.conf
+nano compose.yaml 
+docker compose up -d
+nano compose.yaml 
+docker compose up -d
+nano compose.yaml 
+docker compose down
+docker image prune
+docker image prune 
+docker continer prune
+docker container prune
+docker system prune
+docker ps -a
+docker compose up -d
+docker compose down
+docker container rm
+docker container rm -f $(docker ps -aq)
+docker rm -f $(docker ps -aq)
+docker image rm -f $(docker ps -aq)
+docker image rm
+docker image rm nginx:latest 
+docker compose up -d
+nano nginx.conf
+docker compose up -d
+docker compose down
+nano compose.yaml 
+docker compose down
+docker compose up -d
+nano compose.yaml 
+nano nginx.conf
+docker compose restart
+nano nginx.conf
+docker compose restart
+nano nginx.conf
+docker compose restart
+nano nginx.conf
+docker
+nano nginx.conf
+docker compose restart
+docker compose restart && docker logs node-red -f
+nano nginx.conf
+docker compose restart && docker logs node-red -f
+nano nginx.conf
+docker compose restart && docker logs node-red -f
+nano nginx.conf
+docker compose restart && docker logs node-red -f
+nano nginx.conf
+docker compose restart && docker logs node-red -f
+nano nginx.conf
+docker compose restart && docker logs node-red -f
+nano nginx.conf
+nano compose.yaml 
+docker compose restart && docker logs node-red -f
+nano compose.yaml 
+nano nginx.conf
+nano compose.yaml 
+docker compose restart && docker logs node-red -f
+nano compose.yaml 
+docker compose restart && docker logs node-red -f
+nano compose.yaml 
+docker compose restart && docker logs node-red -f
+nano nginx.conf
+docker compose restart && docker logs node-red -f
+nano nginx.conf
+nano compose.yaml 
+docker compose restart && docker logs node-red -f
+nano compose.yaml 
+nano nginx.conf
+nano compose.yaml 
+docker compose restart && docker logs node-red -f
+nano nginx.conf
+docker compose restart && docker logs node-red -f
+nano nginx.conf
+nano compose.yaml 
+docker compose restart && docker logs node-red -f
+nano nginx.conf
+docker compose restart && docker logs node-red -f
+ls
+cd node-red-data/
+ls
+sudo rm -r public/
+nano settings.js 
+sudo nano settings.js 
+cd
+docker compose restart && docker logs node-red -f
+sudi reboot
+sudo reboot
+docker ps -a
+docker compose restart && docker logs node-red -f
+nano nginx.conf
+docker compose restart && docker logs node-red -f
+ls
+nano nginx.conf
+nano compose.yaml 
+nano nginx.conf
+docker compose restart && docker logs node-red -f
+nano compose.yaml 
+docker compose restart && docker logs node-red -f
+docker compose restart && docker logs -f
+docker compose restart && docker compose logs -f
+nano compose.yaml 
+sudo reboot

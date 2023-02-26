@@ -145,7 +145,7 @@
         "payload": "",
         "payloadType": "date",
         "x": 100,
-        "y": 60,
+        "y": 160,
         "wires": [
             [
                 "a6f2e657e275d3e6"
@@ -165,8 +165,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 410,
-        "y": 60,
+        "x": 450,
+        "y": 160,
         "wires": []
     },
     {
@@ -188,8 +188,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 260,
-        "y": 140,
+        "x": 280,
+        "y": 240,
         "wires": [
             [
                 "1e8867593fa03779"
@@ -206,7 +206,7 @@
         "upload": false,
         "swaggerDoc": "",
         "x": 100,
-        "y": 140,
+        "y": 240,
         "wires": [
             [
                 "44094068d1a39c13"
@@ -220,8 +220,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 410,
-        "y": 140,
+        "x": 450,
+        "y": 240,
         "wires": []
     },
     {
@@ -240,12 +240,13 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 260,
-        "y": 60,
+        "x": 280,
+        "y": 100,
         "wires": [
             [
                 "bfc0d3910ffe0508",
-                "cd49bd1145c5f08f"
+                "cd49bd1145c5f08f",
+                "6f085b6aeeeb8986"
             ]
         ]
     },
@@ -258,7 +259,7 @@
         "order": 0,
         "width": 0,
         "height": 0,
-        "passthru": false,
+        "passthru": true,
         "label": "Generate",
         "tooltip": "",
         "color": "",
@@ -301,8 +302,66 @@
         "seg2": "",
         "diff": false,
         "className": "",
-        "x": 410,
-        "y": 100,
+        "x": 450,
+        "y": 40,
         "wires": []
+    },
+    {
+        "id": "6f085b6aeeeb8986",
+        "type": "ui_chart",
+        "z": "c31911c9bf4006b5",
+        "name": "",
+        "group": "49730420b17565d2",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "label": "",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 450,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "16ee3f79eb33bc2f",
+        "type": "ui_ui_control",
+        "z": "c31911c9bf4006b5",
+        "name": "",
+        "events": "all",
+        "x": 100,
+        "y": 40,
+        "wires": [
+            [
+                "1694c01472c84d2c"
+            ]
+        ]
     }
 ]

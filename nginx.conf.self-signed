@@ -16,11 +16,7 @@ server {
     ssl_certificate_key     /root/ssl/key.pem;
 
     location / {
-        proxy_pass "http://node-red:1880/ui/";
-    }
-
-    location /.well-known/pki-validation/ {
-        proxy_pass "http://node-red:1880/validation/";
+        proxy_pass "http://node-red:1880/";
     }
 
     error_page   500 502 503 504  /50x.html;
